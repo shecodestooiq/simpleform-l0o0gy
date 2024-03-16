@@ -1,0 +1,23 @@
+body{
+    background-image: url(/public/spong.jpg);
+    background-size: cover;
+  }
+.Card{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgba(68, 0, 255, 0.452);
+    width: 25%;
+    height: 30vh;
+    margin-top: 20px;
+    margin-left: 37%;
+    border: 50px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+   
+  }
+.Card:hover {
+    box-shadow: 0 3px 20px 0 rgba(0,0,0,0.4);
+  }
